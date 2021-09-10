@@ -2,6 +2,8 @@ package com.example.demo.controllers;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,12 +23,13 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 @RequestMapping("/api/order")
 public class OrderController {
 
+	private static final Logger log = (Logger) LoggerFactory.getLogger(UserController.class);
+
 	public OrderController(UserRepository userRepository, OrderRepository orderRepository) {
 		this.userRepository = userRepository;
 		this.orderRepository = orderRepository;
 	}
-	
-	
+
 	@Autowired
 	private UserRepository userRepository;
 	
@@ -42,6 +45,7 @@ public class OrderController {
 		}
 		UserOrder order = UserOrder.createFromCart(user.getCart());
 		orderRepository.save(order);
+		log.info("Submit order for username: {}", username);
 		return ResponseEntity.ok(order);
 	}
 	
@@ -51,6 +55,7 @@ public class OrderController {
 		if(user == null) {
 			return ResponseEntity.notFound().build();
 		}
+		log.info("Return order history for username: {}", username);
 		return ResponseEntity.ok(orderRepository.findByUser(user));
 	}
 }
