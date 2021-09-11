@@ -1,0 +1,17 @@
+2021-09-11 19:32:38,284 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Abdullahs-MacBook-Pro-2.local with PID 41625 (/Users/abdullah/dev-java/udacity_javaweb/module-4/project-4/P04-eCommerce Application/target/classes started by abdullah in /Users/abdullah/dev-java/udacity_javaweb/module-4/project-4/P04-eCommerce Application)
+2021-09-11 19:32:38,291 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-09-11 19:32:38,292 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-09-11 19:32:40,824 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-09-11 19:32:41,324 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.394 seconds (JVM running for 4.21)
+2021-09-11 19:32:48,709 INFO c.e.d.c.UserController [http-nio-8080-exec-1] mesg = 'User bob is created successfully.'
+2021-09-11 19:32:54,654 INFO c.e.d.c.UserController [http-nio-8080-exec-3] mesg = 'User bob1 is created successfully.'
+2021-09-11 19:32:59,210 INFO c.e.d.c.UserController [http-nio-8080-exec-4] mesg = 'User bob2 is created successfully.'
+2021-09-11 19:33:03,368 INFO c.e.d.c.UserController [http-nio-8080-exec-5] mesg = 'User bob3 is created successfully.'
+2021-09-11 19:33:17,881 INFO c.e.d.c.UserController [http-nio-8080-exec-6] mesg = 'Order submitted successfully for user bob'
+2021-09-11 19:33:27,848 INFO c.e.d.c.UserController [http-nio-8080-exec-9] mesg = 'Order submitted successfully for user bob'
+2021-09-11 19:33:28,795 INFO c.e.d.c.UserController [http-nio-8080-exec-10] mesg = 'Order submitted successfully for user bob'
+2021-09-11 19:33:29,617 INFO c.e.d.c.UserController [http-nio-8080-exec-2] mesg = 'Order submitted successfully for user bob'
+2021-09-11 19:33:30,307 INFO c.e.d.c.UserController [http-nio-8080-exec-1] mesg = 'Order submitted successfully for user bob'
+2021-09-11 19:33:57,029 INFO c.e.d.c.UserController [http-nio-8080-exec-4] mesg = 'Order submitted successfully for user bob2'
+2021-09-11 19:34:09,535 INFO c.e.d.c.UserController [http-nio-8080-exec-7] mesg = 'Order submitted successfully for user bob2'
+2021-09-11 19:34:10,457 INFO c.e.d.c.UserController [http-nio-8080-exec-8] mesg = 'Order submitted successfully for user bob2'

@@ -1,0 +1,6 @@
+2021-09-11 19:25:28,758 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Abdullahs-MacBook-Pro-2.local with PID 41119 (/Users/abdullah/dev-java/udacity_javaweb/module-4/project-4/P04-eCommerce Application/target/classes started by abdullah in /Users/abdullah/dev-java/udacity_javaweb/module-4/project-4/P04-eCommerce Application)
+2021-09-11 19:25:28,764 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-09-11 19:25:28,765 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-09-11 19:25:31,207 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-09-11 19:25:31,610 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.161 seconds (JVM running for 3.862)
+2021-09-11 19:25:36,206 INFO c.e.d.c.UserController [http-nio-8080-exec-2] mesg = 'User bob is created successfully.'
